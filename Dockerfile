@@ -5,6 +5,7 @@ RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     apache2 \
     apache2-utils \
+    libapache2-mod-php5 \
     bzip2 \
     php5-cli \
     unzip \
