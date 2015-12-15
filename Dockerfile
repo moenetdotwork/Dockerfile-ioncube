@@ -19,6 +19,7 @@ RUN apt-get update \
     libapache2-mod-php5 \
     bzip2 \
     php5-cli \
+    php5-curl \
     unzip \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
