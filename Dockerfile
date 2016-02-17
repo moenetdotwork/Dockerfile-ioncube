@@ -32,8 +32,6 @@ RUN tar xvjfC /tmp/ioncube_loaders_lin_x86-64.tar.bz2 /tmp/ \
 COPY 00-ioncube.ini /etc/php5/apache2/conf.d/00-ioncube.ini
 COPY 00-ioncube.ini /etc/php5/cli/conf.d/00-ioncube.ini
 
-VOLUME ["/var/www/html"]
-
 EXPOSE 80
 
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
